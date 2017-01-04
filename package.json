@@ -1,6 +1,6 @@
 {
   "name": "msbu-ui-react",
-  "version": "0.1.16-alpha",
+  "version": "0.1.13",
   "description": "在 ant.design 的基础上构建 msbu-ui-react 来满足MSBU的开发需要",
   "homepage": "https://msbu-fe.github.io/msbu-ui-react/",
   "keywords": [

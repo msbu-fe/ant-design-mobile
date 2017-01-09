@@ -19,6 +19,20 @@ english: ListView
 same as [React Native ListView](https://facebook.github.io/react-native/docs/listview.html#content)
 (v0.26).
 
+####  常用api介绍
+- dataSource（必须） listView 需要的数据源，此数据必须要经过ListView的 DataSource方法处理过
+```
+    dataSource = new ListView.DataSource({
+        rowHasChanged: (row1, row2) => row1 !== row2,
+    });
+```
+- onEndReached   当所有的数据都已经渲染过，并且列表被滚动到距离最底部不足onEndReachedThreshold个像素的距离时调用。原生的滚动事件会被作为参数传递
+
+- renderRow  渲染每一行需要的模板
+- initialListSize 指定在组件刚挂载的时候渲染多少行数据。用这个属性来确保首屏显示合适数量的数据，而不是花费太多帧逐步显示出来
+- onEndReachedThreshold 距离页面底部**像素时，触发onEndReached事件
+- scrollEventThrottle  scroll事件节流
+
 #### 不支持的特性
 > 一般情况下，不支持“平台特有”的API，例如`android`endFillColor、`ios`alwaysBounceHorizontal。
 另外，使用 css 代替 react-native 的 style 设置方式。
@@ -54,6 +68,11 @@ same as [React Native ListView](https://facebook.github.io/react-native/docs/lis
 - onQuickSearch (function()) 快捷导航切换时触发
 - delayTime (number) - 默认 100ms, 延迟渲染时间设置（用于首屏优化，一开始渲染`initialListSize`数量的数据，在此时间后、延迟渲染剩余的数据项、即`totalRowCount - initialListSize`）
 - delayActivityIndicator (react node) - 延迟渲染的 loading 指示器
+
+## 注意事项
+API可参考如上API介绍，也可参考[React Native ListView](https://facebook.github.io/react-native/docs/listview.html#content)
+(v0.26).
+简单的例子可以参考【list demo】
 
 ## 常见问题与实现原理
 

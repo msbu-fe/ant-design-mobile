@@ -30,6 +30,7 @@ english: Steps
 
 | 参数      | 说明                                      | 类型         | 默认值 |
 |----------|------------------------------------------|-------------|-------|
+| direction | 指定方向 支持：horizontal、vertical|string|vertical
 | current | 指定当前步骤，从 0 开始记数。在子 Step 元素中，可以通过 `status` 属性覆盖状态 | number | 0 |
 | size | 尺寸，支持设置小尺寸`small` | string | - |
 

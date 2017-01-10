@@ -13,10 +13,18 @@ const Icon = ({ type }) => <span className={`anticon anticon-${type}`} />;
 ReactDOM.render(
   <WingBlank size="lg">
     <WhiteSpace size="lg" />
-    <Steps direction="horizontal" size="small" current={1}>
-      <Step title="已完成" description="这里是信息的描述" icon={<Icon type="check-circle-o" />} />
-      <Step title="进行中" description="这里是信息的描述" />
-      <Step title="待运行" description={<div>这里是用div包的描述信息</div>} />
+    <Steps size="small" current={1} className="myStepsV">
+      <Step className="finish" title="已完成" description="这里是信息的描述" icon="pay-circle" />
+      <Step className="process" title="进行中" description="这里是信息的描述" icon="pay-circle" />
+      <Step className="wait" title="待运行" description={<div>这里是用div包的描述信息</div>} icon="pay-circle" />
+    </Steps>
+
+
+    <WhiteSpace size="lg" />
+    <Steps direction="horizontal" size="small" className="myStepsH" current={1}>
+      <Step title="已完成" description="这里是信息的描述" icon="pay-circle" />
+      <Step title="进行中" description="这里是信息的描述" icon="pay-circle" />
+      <Step title="待运行" description={<div>这里是用div包的描述信息</div>} icon="pay-circle" />
     </Steps>
 
     <WhiteSpace size="lg" />
@@ -61,4 +69,72 @@ ReactDOM.render(
     </Steps>
   </WingBlank>
 , mountNode);
+````
+
+````css
+.myStepsV.am-steps.am-steps-small .am-steps-item.am-steps-custom .am-steps-head-inner > .am-steps-icon{
+  width:10px;
+  height:10px;
+  line-height:10px;
+  font-size:10px;
+  background-color:green;
+}
+.myStepsV.am-steps.am-steps-small .am-steps-item.am-steps-status-wait.am-steps-custom .am-steps-head-inner > .am-steps-icon{
+  width:10px;
+  height:10px;
+  line-height:10px;
+  font-size:10px;
+  background-color:#eee;
+}
+.myStepsV.am-steps.am-steps-small .am-steps-item.am-steps-status-process .am-steps-head-inner{
+  width:10px;
+  height:10px;
+  line-height:10px;
+}
+.myStepsV.am-steps-vertical.am-steps-small .am-steps-tail{
+  top:3px
+}
+.myStepsV .am-steps-item.am-steps-status-finish .am-steps-tail > i{
+  background-color:green;
+}
+.myStepsV .am-steps-item.am-steps-status-process .am-steps-tail > i{
+  background-color:green;
+}
+.myStepsV .am-steps-head-inner > .am-steps-icon{
+  left:3px;
+}
+
+
+.myStepsH.am-steps.am-steps-small .am-steps-item.am-steps-custom .am-steps-head-inner > .am-steps-icon{
+  width:10px;
+  height:10px;
+  line-height:10px;
+  font-size:10px;
+  background-color:green;
+}
+.myStepsH.am-steps.am-steps-small .am-steps-item.am-steps-status-wait.am-steps-custom .am-steps-head-inner > .am-steps-icon{
+  width:10px;
+  height:10px;
+  line-height:10px;
+  font-size:10px;
+  background-color:#eee;
+}
+.myStepsH.am-steps.am-steps-small .am-steps-item.am-steps-status-process .am-steps-head-inner{
+  width:10px;
+  height:10px;
+  line-height:10px;
+}
+.myStepsH .am-steps-head-inner > .am-steps-icon{
+  top:3px;
+}
+.myStepsH .am-steps-item.am-steps-status-finish .am-steps-tail > i{
+  background-color:green;
+}
+.myStepsH .am-steps-item.am-steps-status-process .am-steps-tail > i{
+  background-color:green;
+  width:50%;
+}
+.myStepsH.am-steps.am-steps-small .am-steps-main{
+  margin-top:10px
+}
 ````

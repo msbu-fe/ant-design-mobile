@@ -13,8 +13,8 @@ english: ImagePicker
 | 成员        | 说明           | 类型       | 默认值       |
 |------------|----------------|--------------------|
 | files    | 图片文件数组,元素为对象,包含属性 url（必选, 可能还有id, orientation, 以及业务需要的其它属性     | Array  | []  |
-| onChange    | files 值发生变化触发的回调函数, operationType 操作类型有添加，移除，如果是移除操作，则第三个参数代表的是移除图片的索引  | (files: Object, operationType: string, index: number): void |   |
-| onImageClick(`web only`)    | 点击图片触发的回调  | (index: number, files: Object): void |   |
+| onChange    | files 值发生变化触发的回调函数, operationType 操作类型有添加，移除，如果是移除操作，则第三个参数代表的是移除图片的索引  | (files: array, operationType: string, index: number): void |   |
+| onImageClick(`web only`)    | 点击图片触发的回调, 第一个参数表示所点击图片的索引,第二个表示所有图片  | (index: number, files:array): void |   |
 | onAddImageClick(`web only`) | 自定义选择图片的方法  | (): void |   |
 | selectable(`web only`) | 是否显示添加按钮  | boolean |  true |
 

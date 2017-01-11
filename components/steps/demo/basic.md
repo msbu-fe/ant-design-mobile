@@ -20,7 +20,7 @@ ReactDOM.render(
     </Steps>
 
 
-    <WhiteSpace size="lg" />
+    <WhiteSpace size="lg" />git
     <Steps direction="horizontal" size="small" className="myStepsH" current={1}>
       <Step title="已完成" description="这里是信息的描述" icon="pay-circle" />
       <Step title="进行中" description="这里是信息的描述" icon="pay-circle" />

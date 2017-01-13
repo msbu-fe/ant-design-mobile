@@ -40,4 +40,4 @@ https://msbu-fe.github.io/msbu-ui-react/
 
 ## 欢迎贡献
 
-有任何建议或意见您可以进行 [提问](http://github.com/msbu-fe/msbu-ui-react/issues)。
+有任何建议或意见您可以进行 [提问](http://github.com/msbu-fe/msbu-ui-react/issues)

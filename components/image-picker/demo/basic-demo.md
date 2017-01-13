@@ -6,13 +6,7 @@ title: 图片选择组件
 ````jsx
 import { ImagePicker } from 'antd-mobile';
 
-const data = [{
-  url: 'https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg',
-  id: '2121',
-}, {
-  url: 'https://zos.alipayobjects.com/rmsportal/hqQWgTXdrlmVVYi.jpeg',
-  id: '2122',
-}];
+const data = [];
 
 const ImagePickerExample = React.createClass({
   getInitialState() {

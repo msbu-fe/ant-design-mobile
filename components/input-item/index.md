@@ -20,7 +20,7 @@ english: InputItem
 | 成员        | 说明           | 类型             | 默认值       |
 |------------|----------------|-----------------|--------------|
 | prefixListCls    |   列表 className 前缀      | String |  `am-list`  |
-| type    | 银行卡`bankCard`,手机号`phone`（此时最大长度固定为11,`maxLength`设置无效）,密码`password`, 数字`number`（尽量唤起数字键盘）  | String |  `text`  |
+| type    | 可选值 text bankCard phone password number idcard digit time date 其中银行卡`bankCard`,手机号`phone`（此时最大长度固定为11,`maxLength`设置无效）,密码`password`, 数字`number`（尽量唤起数字键盘）  | String |  `text`  |
 | name    | input的name        | String |  无  |
 | value    | value值(受控与否参考https://facebook.github.io/react/docs/forms.html)  | String |  无  |
 | defaultValue    | 设置初始默认值        | String |  -  |

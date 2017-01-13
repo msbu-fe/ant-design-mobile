@@ -1,16 +1,16 @@
 <p align="center">
   <a href="http://mobile.ant.design">
-    <img width="320" src="https://zos.alipayobjects.com/rmsportal/XyhtJExcOrXZnLv.png">
+    <img width="320" src="https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/dpp/pic/item/7dd98d1001e9390120f7ca4572ec54e737d196d7.jpg">
   </a>
 </p>
 
-# Ant Design Mobile [![](https://img.shields.io/travis/msbu-ui-react/msbu-ui-react.svg?style=flat-square)](https://travis-ci.org/msbu-ui-react/msbu-ui-react) [![npm package](https://img.shields.io/npm/v/msbu-ui-react.svg?style=flat-square)](https://www.npmjs.org/package/msbu-ui-react) [![NPM downloads](http://img.shields.io/npm/dm/msbu-ui-react.svg?style=flat-square)](https://npmjs.org/package/msbu-ui-react) [![Dependency Status](https://david-dm.org/msbu-ui-react/msbu-ui-react.svg?style=flat-square)](https://david-dm.org/msbu-ui-react/msbu-ui-react)
+# msbu-design [![](https://img.shields.io/travis/msbu-ui-react/msbu-ui-react.svg?style=flat-square)](https://travis-ci.org/msbu-ui-react/msbu-ui-react) [![npm package](https://img.shields.io/npm/v/msbu-ui-react.svg?style=flat-square)](https://www.npmjs.org/package/msbu-ui-react) [![NPM downloads](http://img.shields.io/npm/dm/msbu-ui-react.svg?style=flat-square)](https://npmjs.org/package/msbu-ui-react) [![Dependency Status](https://david-dm.org/msbu-ui-react/msbu-ui-react.svg?style=flat-square)](https://david-dm.org/msbu-ui-react/msbu-ui-react)
 
 A configurable Mobile UI specification and React-based implementation.
 
 ## Features
 
-- Follow Ant Design Mobile UI specification.
+- Follow MSBU Design Mobile UI specification.
 - Configurable UI style for different products.
 - Support web and native usages based on React Native.
 - Develop in TypeScript.
@@ -19,13 +19,10 @@ A configurable Mobile UI specification and React-based implementation.
 
 ### mobile web demo
 
-<img width="250" src="https://zos.alipayobjects.com/rmsportal/dLMGiKuyFLBfYfm.png" />
+<img width="250" src="https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/dpp/pic/item/7dd98d1001e9390120f7ca4572ec54e737d196d7.jpg" />
 
-http://mobile.ant.design/kitchen-sink/
+https://msbu-fe.github.io/msbu-ui-react/
 
-### react native demo
-
-<img width="250" src="https://cloud.githubusercontent.com/assets/1698185/18130654/6ba4ccea-6fc2-11e6-9aa1-0a53cd74d9e1.png" />
 
 ## Install & Usage
 
@@ -38,10 +35,8 @@ http://mobile.ant.design/kitchen-sink/
 
 ## Links
 
-- [Home Page](http://mobile.ant.design)
-- [Developer Instruction](http://github.com/ant-design/ant-design-mobile/blob/master/development.md)
+- [Home Page](https://msbu-fe.github.io/msbu-ui-react/)
+- [Developer Instruction](https://github.com/msbu-fe/msbu-ui-react/blob/master/development.md)
 - [React components](http://github.com/react-component/)
 
-## Contributing
 
-We welcome all contributions, please read our [CONTRIBUTING.md](https://github.com/ant-design/ant-design-mobile/blob/master/.github/CONTRIBUTING.md) first. You can submit any ideas as [pull requests](https://github.com/ant-design/ant-design-mobile/pulls) or as a [GitHub issue](https://github.com/ant-design/ant-design-mobile/issues). If you'd like to improve code, check out the [Development Instruction](https://github.com/ant-design/ant-design-mobile/blob/master/development.md) and have a good time! :)
